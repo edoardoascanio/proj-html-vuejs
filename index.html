@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proj</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="headbar">
+                <div class="icons">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+
+                <ul>
+                    <li v-for="el in headbarLinks">
+                        <a href="el.link" v-if="el.link">{{el.text}}</a>
+
+                        <span v-else-if="el.icon">
+                            <i class="fa " :class="el.icon"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <nav>
+                <ul>
+                    <li v-for="el in navbarLinks">
+                        <a href="el.link" v-if="el.link">{{el.text}}</a>
+                        <span v-else-if="el.icon">
+                            <i class="fa " :class="el.icon"></i>
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
