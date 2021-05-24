@@ -10,17 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dist/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
 </head>
 
 <body>
     <div id="app">
         <header>
             <div class="headbar">
-                <div class="icons">
-                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+                <div class="headbar-icons">
+
+                    <a href="el.icon"></a>
+                    <i class="fa " :class="el-icon"></i>
+                    </a>
+
                 </div>
 
                 <ul>
@@ -60,7 +63,9 @@
 
         </footer>
 
-        <script src="script.js"></script>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
