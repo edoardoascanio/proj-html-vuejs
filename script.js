@@ -16,7 +16,7 @@ new Vue({
 
             {
                 text:"Cart",
-                
+                link:"",
                 icon: "fa-shopping-cart"
             }
         ],
