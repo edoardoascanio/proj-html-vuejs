@@ -28,7 +28,7 @@
                         <a href="el.link" v-if="el.link">{{el.text}}</a>
 
                         <span v-else-if="el.icon">
-                            <i class="fa " :class="el.icon"></i>
+                            <i class="fa " :class="el.icon">{{el.text}}</i>
                         </span>
                     </li>
                 </ul>
@@ -38,6 +38,7 @@
                 <ul>
                     <li v-for="el in navbarLinks">
                         <a href="el.link" v-if="el.link">{{el.text}}</a>
+
                         <span v-else-if="el.icon">
                             <i class="fa " :class="el.icon"></i>
                         </span>
