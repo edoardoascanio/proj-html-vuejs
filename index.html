@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="dist/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -49,6 +52,7 @@
 
                             <span v-else-if="el.icon">
                                 <i class="fa " :class="el.icon">{{el.text}}</i>
+                                <i class="fa fa-chevron-down"></i>
                             </span>
                         </li>
                     </ul>
@@ -78,9 +82,66 @@
     </div>
     <main>
         <section class="hero">
-            <img src="/imgs/home1_slide_three_bg_2.jpg" alt="">
+            <h1>Brand New Arrivals</h1>
+            <h3>NEW COLLECTION FROM NEW YORK</h3>
+
+            <div class="hero-btn">
+                <button>VIEW ALL</button>
+                <button>LOOKBOOK</button>
+            </div>
         </section>
-        <section></section>
+
+        <section class="section-1">
+            <div class="container">
+                <div class="title">
+                    <hr>
+                    <h3>Feutured Products</h3>
+                    <hr>
+                </div>
+
+                <p>Must have products from our top sellers</p>
+
+                <div class="sect-1-btn">
+                    <button>Men</button>
+                    <button>Women</button>
+                    <button>Accessories</button>
+                </div>
+
+                <div class="container">
+                    <div class="sect-1-img">
+                        <img src="imgs/black_elegant_leather_jacket-400x520.jpg" alt="">
+                        <h5></h5>
+                        <p></p>
+                        <a href="#"></a>
+
+
+
+                        <img src="imgs/black_leather_suit-400x520.jpg" alt="">
+                        <h5></h5>
+                        <p></p>
+                        <a href="#"></a>
+
+
+
+                        <img src="imgs/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
+                        <h5></h5>
+                        <p></p>
+                        <a href="#"></a>
+
+
+
+                        <img src="imgs/blue_leather_jacket-400x520.jpg" alt="">
+                        <h5></h5>
+                        <p></p>
+                        <a href="#"></a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section></section>
         <section></section>
         <section></section>
