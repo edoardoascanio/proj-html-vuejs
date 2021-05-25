@@ -4,7 +4,28 @@
   box-sizing: border-box;
 }
 
-.center-block {
+.container {
   width: 70%;
   margin: auto;
+}
+
+.headbar {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #2a2f33;
+}
+
+.navbar-container {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+.navbar-container img {
+  justify-self: center;
+  width: 50%;
+  margin-right: 100px;
+}
+
+.hero img {
+  width: 100%;
 }

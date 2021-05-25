@@ -1,3 +1,27 @@
 @import "/partials/variables";
 @import "/partials/common";
 
+.headbar{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $titleColor;
+}
+.navbar-container{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    img{
+        justify-self:center;
+        width: 50%;
+        margin-right: $size * 20;
+    }
+}
+
+.hero{
+    img{
+        width: 100%;
+    }
+}
+
+
+

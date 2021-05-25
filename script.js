@@ -4,22 +4,7 @@ new Vue({
     data: {
          
         headbarLinks:[
-            {
-              icon: "fa-facebook"
-            },
-
-            {
-                icon: "fa-twitter"
-            },
-
-            {
-                icon: "fa-instagram"
-            },
-
-            {
-                icon: "fa-youtube-play"
-            },
-
+            
             {
               text: "Shopping Cart",
               link: "#"
