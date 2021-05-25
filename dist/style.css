@@ -29,6 +29,12 @@ h1 {
 .headbar li:hover {
   background-color: #f0f0f0;
 }
+.headbar span {
+  padding: 0 5px;
+}
+.headbar span a {
+  color: #2a2f33;
+}
 .headbar span i {
   font-size: 20px;
   margin: 15px;
@@ -61,11 +67,22 @@ h1 {
   margin-right: 75px;
 }
 .navbar-container span i {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 15px;
+  margin: 15px;
 }
 .navbar-container span i:hover {
   color: #a0a5a5;
+}
+.navbar-container button {
+  padding: 10px 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+.navbar-container button:hover {
+  color: #ffff;
+  background-color: #427ed5;
 }
 
 .hero {

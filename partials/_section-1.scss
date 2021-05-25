@@ -28,15 +28,7 @@
         }
 
         button{
-            margin-top: $size * 5;
-            padding: $size * 3  $size * 8;
-            border-radius: 0;
-            font-weight: 600;
-            border: 1px solid $thirdColor;
-
-            &:hover {
-                background-color: $whitetext;
-            }
+         @include squareBtn
         }
     }
 

@@ -60,13 +60,15 @@
                             <a href="el.link" v-if="el.link">{{el.text}}</a>
 
                             <span v-else-if="el.icon">
-                                <i class="fa " :class="el.icon">{{el.text}}</i>
+                                <a href="">
+                                    <i class="fa " :class="el.icon">{{el.text}}</i>
+                                </a>
                                 <i class="fa fa-chevron-down"></i>
                             </span>
+
+                            
                         </li>
                     </ul>
-
-
                 </div>
             </nav>
 
@@ -80,15 +82,17 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li v-for="el in navbarLinks">
                                 <a href="el.link" v-if="el.link">{{el.text}} <i v-if="el.dropdown"
-                                        class="fa fa-chevron-down"></i></a>
+                                        class="fa fa-chevron-down"></i>
+                                    </a>
 
                                 <span v-else-if="el.icon" id="search">
                                     <i class="fa " :class="el.icon"></i>
                                 </span>
+
+                                <span><button v-if="el.button">SHOP NOW!</button></span>
                             </li>
                         </ul>
                     </div>
-
                 </nav>
             </div>
 

@@ -18,16 +18,6 @@
     } 
 
     button{
-        padding: $size * 2  $size * 6;
-        background-color: transparent;
-        border: 2px solid $whitetext;
-        border-radius: $size * 4;
-        margin-bottom: $size * 20;
-        font-size: $size * 2;
-        font-weight: 600;
-
-        &:hover{
-            background-color: $btnHover1;
-        }
+        @include whiteBtn;
     }
 }

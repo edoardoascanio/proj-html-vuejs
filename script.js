@@ -61,8 +61,9 @@ new Vue({
             },
 
             {
-                text: "SHOP NOW!",
-                link: "#",
+                text: "",
+                link: "",
+                button: true
             },
 
             {

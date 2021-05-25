@@ -1,0 +1,37 @@
+@mixin blueBtn {
+    padding: $size * 2 $size * 4;
+    font-size: 12px;
+    border: none;
+    border-radius: $size * 5;
+
+    &:hover{
+        color: $whitetext;
+        background-color: $blueDecoration;
+    }
+}
+
+@mixin whiteBtn{
+    padding: $size * 2  $size * 6;
+    background-color: transparent;
+    border: 2px solid $whitetext;
+    border-radius: $size * 4;
+    margin-bottom: $size * 20;
+    font-size: $size * 2;
+    font-weight: 600;
+
+    &:hover{
+        background-color: $btnHover1;
+    }
+}
+
+@mixin squareBtn{
+    margin-top: $size * 5;
+    padding: $size * 3  $size * 8;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid $thirdColor;
+
+    &:hover {
+        background-color: $whitetext;
+    }
+}

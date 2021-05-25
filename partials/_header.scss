@@ -12,6 +12,11 @@
     }
 
     span{
+        padding: 0 $size;
+        a{
+          color: $titleColor;
+        }
+
         i{
             font-size:  $size * 4;
             margin:  $size * 3;
@@ -51,12 +56,17 @@
 
     span{
         i{
-            font-size:  $size * 4;
-            margin:  $size * 2;
+            font-size: $size * 3;
+            margin:  $size * 3;
 
             &:hover{
                 color: $greyDecoration;
             }
         }
     }
+
+    button{
+        @include blueBtn;
+        margin-top: $size;
+    }  
 }
