@@ -176,3 +176,37 @@ h1 {
   font-size: 12px;
   margin-right: 10px;
 }
+
+.photo-reel {
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+.photo-reel .picture-1, .photo-reel .picture-2, .photo-reel .picture-3 {
+  flex-direction: row;
+  width: calc(100% / 3);
+}
+.photo-reel .picture-1 {
+  background-color: violet;
+  padding: 50px;
+  background-image: url("/imgs/winter_collection_bg.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo-reel .picture-2 {
+  background-color: aquamarine;
+  padding: 50px;
+  background-image: url("/imgs/spring_collection_bg.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo-reel .picture-3 {
+  background-color: blueviolet;
+  padding: 50px;
+  background-image: url("/imgs/autumn_collection_bg.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
