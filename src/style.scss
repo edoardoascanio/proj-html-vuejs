@@ -1,91 +1,9 @@
 @import "/partials/variables";
 @import "/partials/common";
 @import "/partials/header";
+@import "/partials/hero";
+@import "/partials/section-1";
 
-
-.hero{
-    display: flex;
-    flex-direction: column;
-    background-image: url("/imgs/home1_slide_three_bg_2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: $whitetext;
-
-    h1,h3,button{
-        margin: $size * 4;
-    }
-    
-    h1{
-        font-size: $size * 14;
-        margin-top: $size * 20;
-        
-    } 
-
-    button{
-        padding: $size * 2  $size * 6;
-        background-color: transparent;
-        border: 2px solid $whitetext;
-        border-radius: $size * 4;
-        margin-bottom: $size * 20;
-        font-size: $size * 2;
-        font-weight: 600;
-
-        &:hover{
-            background-color: $btnHover1;
-        }
-    }
-}
-
-.section-1{
-    display: flex;
-    text-align: center;
-
-    .title{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-        h3{
-            font-size: $size * 7;
-            font-weight: 800;
-            margin: $size ;
-        }
-
-        hr{
-            width: 30%;
-            border: 1px solid $greyDecoration;
-        }
-    }
-
-    p{
-        color: $secondaryColor;
-        margin: $size * 2;
-    }
-
-    button{
-        margin-top: $size * 5;
-        padding: $size * 3  $size * 8;
-        border-radius: 0;
-        font-weight: 600;
-        border: 1px solid $greyDecoration;
-
-        &:hover {
-            background-color: $whitetext;
-        }
-    }
-
-    .sect-1-img{
-        margin-top:  $size * 10;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
-        img{
-            width: 40%;
-        }
-    }
-}
 
 
 

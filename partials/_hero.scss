@@ -1,0 +1,33 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/imgs/home1_slide_three_bg_2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: $whitetext;
+
+    h1,h3,button{
+        margin: $size * 3;
+    }
+    
+    h1{
+        font-size: $size * 14;
+        margin-top: $size * 16;
+        
+    } 
+
+    button{
+        padding: $size * 2  $size * 6;
+        background-color: transparent;
+        border: 2px solid $whitetext;
+        border-radius: $size * 4;
+        margin-bottom: $size * 20;
+        font-size: $size * 2;
+        font-weight: 600;
+
+        &:hover{
+            background-color: $btnHover1;
+        }
+    }
+}

@@ -6,7 +6,7 @@
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -58,7 +58,7 @@ h1 {
 .navbar-container img {
   justify-self: center;
   width: 50%;
-  margin-right: 40px;
+  margin-right: 75px;
 }
 .navbar-container span i {
   font-size: 20px;
@@ -78,11 +78,11 @@ h1 {
   color: #ffff;
 }
 .hero h1, .hero h3, .hero button {
-  margin: 20px;
+  margin: 15px;
 }
 .hero h1 {
   font-size: 70px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .hero button {
   padding: 10px 30px;
@@ -99,7 +99,6 @@ h1 {
 
 .section-1 {
   display: flex;
-  text-align: center;
 }
 .section-1 .title {
   display: flex;
@@ -107,34 +106,56 @@ h1 {
   justify-content: center;
 }
 .section-1 .title h3 {
-  font-size: 35px;
-  font-weight: 800;
-  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 25px;
 }
 .section-1 .title hr {
   width: 30%;
-  border: 1px solid #a0a5a5;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
 }
-.section-1 p {
+.section-1 .sect-1-top {
+  text-align: center;
+}
+.section-1 .sect-1-top p {
   color: #6b6a6b;
   margin: 10px;
 }
-.section-1 button {
+.section-1 .sect-1-top button {
   margin-top: 25px;
   padding: 15px 40px;
   border-radius: 0;
   font-weight: 600;
-  border: 1px solid #a0a5a5;
+  border: 1px solid #f0f0f0;
 }
-.section-1 button:hover {
+.section-1 .sect-1-top button:hover {
   background-color: #ffff;
 }
 .section-1 .sect-1-img {
-  margin-top: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-top: 50px;
 }
 .section-1 .sect-1-img img {
-  width: 40%;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.section-1 .caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.section-1 .caption .text {
+  margin-top: 10px;
+}
+.section-1 .caption .text h5 {
+  font-weight: bold;
+}
+.section-1 .caption .text p {
+  font-size: 12px;
+}
+.section-1 .caption .text #price {
+  font-size: 12px;
+  margin-right: 10px;
 }
