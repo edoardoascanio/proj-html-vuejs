@@ -1,70 +1,14 @@
 @import "/partials/variables";
 @import "/partials/common";
+@import "/partials/header";
 
-.headbar{
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid $greyDecoration;
-
-    li{
-        border: 1px solid $greyDecoration;
-    }
-
-    span{
-        i{
-            font-size:  $size * 4;
-            margin:  $size * 3;
-        }
-    }
-}
-
-.headbar-icons{
-    display: inline-block;
-    width: 20%;
-    margin-top: $size * 3;
-
-    a{
-        margin: $size*2;
-
-        i{
-            font-size: $size * 4;
-            color: $secondaryColor;
-
-            &:hover{
-                color: $blueDecoration;
-            }
-        }
-    }
-}
-
-.navbar-container{
-    display: flex;
-    background-color: transparent;
-    border: none;
-
-    img{
-        justify-self:center;
-        width: 50%;
-        margin-right: $size * 10;
-    }
-
-    span{
-        i{
-            font-size:  $size * 4;
-            margin:  $size * 2;
-
-            &:hover{
-                color: $greyDecoration;
-            }
-        }
-    }
-}
 
 .hero{
     display: flex;
     flex-direction: column;
     background-image: url("/imgs/home1_slide_three_bg_2.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
     color: $whitetext;
 
@@ -110,7 +54,7 @@
 
         hr{
             width: 30%;
-            background-color: $greyDecoration;
+            border: 1px solid $greyDecoration;
         }
     }
 

@@ -24,7 +24,10 @@ h1 {
   border-bottom: 1px solid #a0a5a5;
 }
 .headbar li {
-  border: 1px solid #a0a5a5;
+  border-right: 1px solid #a0a5a5;
+}
+.headbar li:hover {
+  background-color: #f0f0f0;
 }
 .headbar span i {
   font-size: 20px;
@@ -55,7 +58,7 @@ h1 {
 .navbar-container img {
   justify-self: center;
   width: 50%;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 .navbar-container span i {
   font-size: 20px;
@@ -70,6 +73,7 @@ h1 {
   flex-direction: column;
   background-image: url("/imgs/home1_slide_three_bg_2.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
   text-align: center;
   color: #ffff;
 }
@@ -109,7 +113,7 @@ h1 {
 }
 .section-1 .title hr {
   width: 30%;
-  background-color: #a0a5a5;
+  border: 1px solid #a0a5a5;
 }
 .section-1 p {
   color: #6b6a6b;

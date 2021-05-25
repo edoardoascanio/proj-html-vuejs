@@ -43,10 +43,18 @@
                         <a href="#">
                             <i class="fa fa-youtube-play"></i>
                         </a>
-
                     </div>
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                      </div>
+
+                    <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
                         <li v-for="el in headbarLinks">
                             <a href="el.link" v-if="el.link">{{el.text}}</a>
 
@@ -56,6 +64,8 @@
                             </span>
                         </li>
                     </ul>
+
+
                 </div>
             </nav>
 
@@ -64,15 +74,20 @@
                     <div class="nav-logo">
                         <img src="/imgs/classic_shop_logo2x.png" alt="">
                     </div>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li v-for="el in navbarLinks">
-                            <a href="el.link" v-if="el.link">{{el.text}} <i class="fa fa-chevron-down"></i></a>
 
-                            <span v-else-if="el.icon" id="search">
-                                <i class="fa " :class="el.icon"></i>
-                            </span>
-                        </li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li v-for="el in navbarLinks">
+                                <a href="el.link" v-if="el.link">{{el.text}} <i v-if="el.dropdown"
+                                        class="fa fa-chevron-down"></i></a>
+
+                                <span v-else-if="el.icon" id="search">
+                                    <i class="fa " :class="el.icon"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
                 </nav>
             </div>
 
@@ -107,38 +122,34 @@
                     <button>Accessories</button>
                 </div>
 
-                <div class="container">
-                    <div class="sect-1-img">
-                        <img src="imgs/black_elegant_leather_jacket-400x520.jpg" alt="">
-                        <h5></h5>
-                        <p></p>
-                        <a href="#"></a>
+                <div class="sect-1-img">
+                    <img src="imgs/black_elegant_leather_jacket-200x260.jpg" alt="">
+                    <h5></h5>
+                    <p></p>
+                    <a href="#"></a>
 
 
 
-                        <img src="imgs/black_leather_suit-400x520.jpg" alt="">
-                        <h5></h5>
-                        <p></p>
-                        <a href="#"></a>
+                    <img src="imgs/black_leather_suit-200x260.jpg" alt="">
+                    <h5></h5>
+                    <p></p>
+                    <a href="#"></a>
 
 
 
-                        <img src="imgs/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
-                        <h5></h5>
-                        <p></p>
-                        <a href="#"></a>
+                    <img src="/imgs/blue_jacket_and_white_stripe_tee-200x260.jpg" alt="">
+                    <h5></h5>
+                    <p></p>
+                    <a href="#"></a>
 
 
 
-                        <img src="imgs/blue_leather_jacket-400x520.jpg" alt="">
-                        <h5></h5>
-                        <p></p>
-                        <a href="#"></a>
-
-
-
-                    </div>
+                    <img src="imgs/blue_leather_jacket-200x260.jpg" alt="">
+                    <h5></h5>
+                    <p></p>
+                    <a href="#"></a>
                 </div>
+
             </div>
         </section>
 

@@ -1,0 +1,62 @@
+.headbar{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $greyDecoration;
+
+    li{
+        border-right: 1px solid $greyDecoration;
+
+        &:hover{
+            background-color: $thirdColor;
+        }
+    }
+
+    span{
+        i{
+            font-size:  $size * 4;
+            margin:  $size * 3;
+        }
+    }
+}
+
+.headbar-icons{
+    display: inline-block;
+    width: 20%;
+    margin-top: $size * 3;
+
+    a{
+        margin: $size*2;
+
+        i{
+            font-size: $size * 4;
+            color: $secondaryColor;
+
+            &:hover{
+                color: $blueDecoration;
+            }
+        }
+    }
+}
+
+.navbar-container{
+    display: flex;
+    background-color: transparent;
+    border: none;
+
+    img{
+        justify-self:center;
+        width: 50%;
+        margin-right: $size * 8;
+    }
+
+    span{
+        i{
+            font-size:  $size * 4;
+            margin:  $size * 2;
+
+            &:hover{
+                color: $greyDecoration;
+            }
+        }
+    }
+}

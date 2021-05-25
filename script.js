@@ -12,13 +12,15 @@ new Vue({
 
             {
                 text:"My Account",
-                link: "#"
+                link: "#",
+                dropdown: true,
             },
 
             {
-                text:"Cart",
+                text:" Cart",
                 link:"",
-                icon: "fa-shopping-cart"
+                icon: "fa-shopping-cart",
+                dropdown: true,
             }
         ],
 
@@ -26,21 +28,25 @@ new Vue({
             {
                 text: "Home",
                 link: "#",
+                dropdown: true,
             },
 
             {
                 text: "Shop",
                 link: "#",
+                dropdown: true,
             },
 
             {
                 text: "Products",
                 link: "#",
+                dropdown: true,
             },
 
             {
                 text: "Categories",
                 link: "#",
+                dropdown: true,
             },
 
             {
@@ -51,6 +57,7 @@ new Vue({
             {
                 text: "Elements",
                 link: "#",
+                dropdown: true,
             },
 
             {
