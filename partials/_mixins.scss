@@ -7,6 +7,7 @@
     &:hover{
         color: $whitetext;
         background-color: $blueDecoration;
+        transition: 0.2s;
     }
 }
 
@@ -20,6 +21,7 @@
 
     &:hover{
         background-color: $btnHover1;
+        transition: 0.5s;
     }
 }
 
@@ -30,8 +32,23 @@
     font-weight: 600;
     border: 1px solid $thirdColor;
 
-    &:hover {
+    &:hover{
         background-color: $whitetext;
+        transition: 0.5s;
+    }
+}
+
+@mixin carouselBtn{
+    padding: $size * 4 $size * 2;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+
+    &:hover{
+        background: rgba($color: #000000, $alpha: 0.3);
+        transition: 0.5s;
+    }
+
+    a{
+     color: $whitetext;
     }
 }
 

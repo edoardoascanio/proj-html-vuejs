@@ -8,6 +8,7 @@
 
         &:hover{
             background-color: $thirdColor;
+            transition: 0.5s;
         }
     }
 
@@ -38,6 +39,7 @@
 
             &:hover{
                 color: $blueDecoration;
+                transition: 0.1s;
             }
         }
     }
@@ -61,6 +63,7 @@
 
             &:hover{
                 color: $greyDecoration;
+                transition: 0.1s;
             }
         }
     }

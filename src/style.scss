@@ -4,42 +4,9 @@
 @import "/partials/header";
 @import "/partials/hero";
 @import "/partials/section-1";
+@import "/partials/photo-reel";
+@import "/partials/section-2";
 
-.photo-reel{
-    display: flex;
-    flex-basis: 100%;
-    flex-grow: 1;
-    
-    .picture-1,.picture-2,.picture-3{
-        flex-direction: row;
-        width: calc(100% / 3);
-        padding: $size * 10;
-        @include backgroundImg;
-        text-align: center;
-        color: $whitetext;
-    }
-    
-    .picture-1{
-        background-image: url("/imgs/winter_collection_bg.jpg");
-    }
-    
-    .picture-2{
-        background-image: url("/imgs/spring_collection_bg.jpg");
-    }
-
-    .picture-3{
-        background-image: url("/imgs/autumn_collection_bg.jpg");
-    }
-
-    h2{
-        font-weight: bold;
-        margin-top: $size * 50;
-    }
-    
-    button{
-        @include whiteBtn;
-    }
-}
 
 
 

@@ -28,6 +28,7 @@ h1 {
 }
 .headbar li:hover {
   background-color: #f0f0f0;
+  transition: 0.5s;
 }
 .headbar span {
   padding: 0 5px;
@@ -54,6 +55,7 @@ h1 {
 }
 .headbar-icons a i:hover {
   color: #427ed5;
+  transition: 0.1s;
 }
 
 .navbar-container {
@@ -72,6 +74,7 @@ h1 {
 }
 .navbar-container span i:hover {
   color: #a0a5a5;
+  transition: 0.1s;
 }
 .navbar-container button {
   padding: 10px 20px;
@@ -83,6 +86,7 @@ h1 {
 .navbar-container button:hover {
   color: #ffff;
   background-color: #427ed5;
+  transition: 0.2s;
 }
 
 .hero {
@@ -112,6 +116,7 @@ h1 {
 }
 .hero button:hover {
   background-color: #e280b1;
+  transition: 0.5s;
 }
 
 .section-1 {
@@ -148,6 +153,7 @@ h1 {
 }
 .section-1 .sect-1-top button:hover {
   background-color: #ffff;
+  transition: 0.5s;
 }
 .section-1 .sect-1-img {
   display: flex;
@@ -214,4 +220,48 @@ h1 {
 }
 .photo-reel button:hover {
   background-color: #e280b1;
+  transition: 0.5s;
+}
+
+.section-2 {
+  display: flex;
+}
+.section-2 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-2 .title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 25px;
+}
+.section-2 .title hr {
+  width: 30%;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+}
+.section-2 .sect-2-top {
+  text-align: center;
+}
+.section-2 .sect-2-top p {
+  color: #6b6a6b;
+  margin: 10px;
+}
+.section-2 .carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+.section-2 .carousel .left-btn, .section-2 .carousel .right-btn {
+  padding: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.section-2 .carousel .left-btn:hover, .section-2 .carousel .right-btn:hover {
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.section-2 .carousel .left-btn a, .section-2 .carousel .right-btn a {
+  color: #ffff;
 }
