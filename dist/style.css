@@ -265,3 +265,45 @@ h1 {
 .section-2 .carousel .left-btn a, .section-2 .carousel .right-btn a {
   color: #ffff;
 }
+
+.photo-reel-2 {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 50px 0;
+  color: #ffff;
+  background-image: url("/imgs/bkgd_confetti-compressor.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.photo-reel-2 .photo-1, .photo-reel-2 .photo-2 {
+  padding: 80px 175px 80px 50px;
+  margin: 15px;
+}
+.photo-reel-2 .photo-1 {
+  background-image: url("/imgs/promo_box_1_bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.photo-reel-2 .photo-2 {
+  background-image: url("/imgs/promo_box_2_bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.photo-reel-2 h2 {
+  font-weight: bold;
+}
+.photo-reel-2 button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid #ffff;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.photo-reel-2 button:hover {
+  background-color: #e280b1;
+  transition: 0.5s;
+}
