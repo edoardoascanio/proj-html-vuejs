@@ -13,34 +13,32 @@
     .picture-1,.picture-2,.picture-3{
         flex-direction: row;
         width: calc(100% / 3);
+        padding: $size * 10;
+        @include backgroundImg;
+        text-align: center;
+        color: $whitetext;
     }
     
     .picture-1{
-        background-color: violet;
-        padding: $size * 10;
         background-image: url("/imgs/winter_collection_bg.jpg");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
     }
     
     .picture-2{
-        background-color: aquamarine;
-        padding: $size * 10;
         background-image: url("/imgs/spring_collection_bg.jpg");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     .picture-3{
-        background-color: blueviolet;
-        padding: $size * 10;
         background-image: url("/imgs/autumn_collection_bg.jpg");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }        
+    }
+
+    h2{
+        font-weight: bold;
+        margin-top: $size * 50;
+    }
+    
+    button{
+        @include whiteBtn;
+    }
 }
 
 

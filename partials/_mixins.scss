@@ -15,7 +15,6 @@
     background-color: transparent;
     border: 2px solid $whitetext;
     border-radius: $size * 4;
-    margin-bottom: $size * 20;
     font-size: $size * 2;
     font-weight: 600;
 
@@ -34,4 +33,9 @@
     &:hover {
         background-color: $whitetext;
     }
+}
+
+@mixin backgroundImg {
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
