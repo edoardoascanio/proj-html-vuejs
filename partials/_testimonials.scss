@@ -1,0 +1,27 @@
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding:($size * 15) 0;
+    color: $whitetext;
+    background-image: url("/imgs/testimonials_home_1_bg.jpg");
+    @include backgroundImg;
+
+    img{
+        width: 4%;
+        align-self: center;
+        margin-bottom: ($size * 5);
+    }
+
+    em,p{
+        margin-bottom: ($size * 5);
+    }
+
+    a{
+        color: $whitetext;
+        &:hover{
+            color: $greyDecoration;
+            transition: 0.2s;
+        }
+    }
+}

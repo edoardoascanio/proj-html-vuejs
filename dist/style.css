@@ -356,3 +356,29 @@ h1 {
 .section-3 .carousel .left-btn a, .section-3 .carousel .right-btn a {
   color: #ffff;
 }
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 75px 0;
+  color: #ffff;
+  background-image: url("/imgs/testimonials_home_1_bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.testimonials img {
+  width: 4%;
+  align-self: center;
+  margin-bottom: 25px;
+}
+.testimonials em, .testimonials p {
+  margin-bottom: 25px;
+}
+.testimonials a {
+  color: #ffff;
+}
+.testimonials a:hover {
+  color: #a0a5a5;
+  transition: 0.2s;
+}
