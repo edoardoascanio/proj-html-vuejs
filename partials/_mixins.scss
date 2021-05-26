@@ -56,3 +56,31 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+@mixin overlay{
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(226,128,177);
+    background: linear-gradient(0deg, rgba(226,128,177,0.8) 0%, rgba(66,126,213,0.8) 100%);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    
+
+    i{
+        position: absolute;
+        top: 40%;
+        left:50%;
+        transform: translate(-50%);
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.8); 
+        border-radius: 50%;
+        
+    }
+}

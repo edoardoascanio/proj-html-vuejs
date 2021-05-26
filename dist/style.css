@@ -159,18 +159,55 @@ h1 {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  justify-content: space-around;
+}
+.section-1 .sect-1-img .card {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+.section-1 .sect-1-img .card:hover .overlay {
+  opacity: 1;
+}
+.section-1 .sect-1-img .card img {
+  width: 100%;
+}
+.section-1 .sect-1-img .overlay {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #e280b1;
+  background: linear-gradient(0deg, rgba(226, 128, 177, 0.8) 0%, rgba(66, 126, 213, 0.8) 100%);
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+.section-1 .sect-1-img .overlay i {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
 }
 .section-1 .sect-1-img img {
-  flex-grow: 1;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 .section-1 .caption {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .section-1 .caption .text {
   margin-top: 10px;
+  margin-left: 40px;
 }
 .section-1 .caption .text h5 {
   font-weight: bold;
