@@ -469,32 +469,40 @@ h1 {
   margin-top: 10px;
 }
 
-.section-4-mid .title {
+.section-4-mid .table {
+  width: 90%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: #6b6a6b;
 }
-.section-4-mid .products {
+.section-4-mid .col {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+  flex-direction: column;
 }
-.section-4-mid .products .product {
-  width: calc(100 / 4);
+.section-4-mid .col p {
+  font-size: 18px;
+}
+.section-4-mid .product {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #a0a5a5;
-  margin: 0 25px;
 }
-.section-4-mid h5 {
-  font-size: 20px;
-  margin-bottom: 40px;
+.section-4-mid .product .picture {
+  display: flex;
+  max-width: 60px;
 }
-.section-4-mid .picture {
-  width: 25%;
-}
-.section-4-mid .picture img {
+.section-4-mid .product .picture img {
   width: 100%;
+}
+.section-4-mid .stars i {
+  margin: 10px 0;
+  color: #427ed5;
+}
+.section-4-mid .price a {
+  color: #2a2f33;
 }
