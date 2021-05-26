@@ -65,12 +65,12 @@
     .caption{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
 
         .text{
-           margin-top: $size*2;
-           margin-left: $size * 8;
-
+           width: calc(100% / 4);
+           margin: ($size * 2) 0;
+          
            h5{
                font-weight: bold;
             }

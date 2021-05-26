@@ -203,11 +203,11 @@ h1 {
 .section-1 .caption {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .section-1 .caption .text {
-  margin-top: 10px;
-  margin-left: 40px;
+  width: calc(100% / 4);
+  margin: 10px 0;
 }
 .section-1 .caption .text h5 {
   font-weight: bold;
@@ -418,4 +418,83 @@ h1 {
 .testimonials a:hover {
   color: #a0a5a5;
   transition: 0.2s;
+}
+
+.section-4-top {
+  display: flex;
+  border-bottom: 1px solid #a0a5a5;
+}
+.section-4-top .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-4-top .title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 25px;
+}
+.section-4-top .title hr {
+  width: 30%;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+}
+.section-4-top .sect-4-text {
+  text-align: center;
+}
+.section-4-top .sect-4-text p {
+  color: #6b6a6b;
+  margin: 10px;
+}
+.section-4-top .sect-4-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.section-4-top .caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.section-4-top .caption .text {
+  width: calc(100% / 3);
+  margin: 10px 20px;
+}
+.section-4-top .caption .text .small-text {
+  font-size: 10px;
+}
+.section-4-top .caption .text p {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.section-4-mid .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-4-mid .products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.section-4-mid .products .product {
+  width: calc(100 / 4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #a0a5a5;
+  margin: 0 25px;
+}
+.section-4-mid h5 {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.section-4-mid .picture {
+  width: 25%;
+}
+.section-4-mid .picture img {
+  width: 100%;
 }

@@ -1,0 +1,96 @@
+.section-4-top{
+    display: flex;
+    border-bottom: 1px solid $greyDecoration ;
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        h3{
+            font-size: $size * 6;
+            font-weight: bold;
+            margin: 0 $size*5 ;
+        }
+
+        hr{
+            width: 30%;
+            background-color: $thirdColor;
+            border: 1px solid $thirdColor;
+        }
+    }
+
+    .sect-4-text{
+        text-align: center;
+
+        p{
+            color: $secondaryColor;
+            margin: $size * 2;
+        }
+    }
+
+    .sect-4-img{
+        display: flex;
+        justify-content: space-around;
+        margin-top: $size*10;
+    }
+    
+    .caption{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: $size * 2;
+
+        .text{
+           width: calc(100% / 3);
+           margin: ($size * 2) ($size * 4);
+
+           .small-text{
+                font-size: 10px;
+            }
+
+            p{
+                font-size: 11px;
+                margin-top: $size * 2;
+            }
+        }
+    }
+}
+
+.section-4-mid{
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        .product{
+          width: calc(100 / 4);
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          border-bottom: 1px solid $greyDecoration ;
+          margin: 0 $size * 5;
+        }
+    }
+
+    h5{
+        font-size: 20px;
+        margin-bottom: ($size * 8);
+    }
+
+    .picture{
+        width: 25%;
+
+        img{
+            width: 100%;
+        }
+    }
+}
