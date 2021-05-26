@@ -521,3 +521,144 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
 }
+
+footer .footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #303337;
+  padding: 75px;
+}
+footer .footer-top i {
+  color: #ffff;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #1d1f22;
+  border-radius: 50%;
+}
+footer .footer-top h3 {
+  color: #ffff;
+}
+footer .footer-top .send {
+  margin-top: 20px;
+}
+footer .footer-top .send input {
+  padding: 5px 50px;
+  border-radius: 25px;
+  border: none;
+}
+footer .footer-top .send button {
+  padding: 10px 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 50px;
+}
+footer .footer-top .send button:hover {
+  color: #ffff;
+  background-color: #427ed5;
+  transition: 0.2s;
+}
+footer .footer-mid {
+  background-color: #2b2e32;
+  padding: 75px;
+  color: #f0f0f0;
+}
+footer .footer-mid .table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #6b6a6b;
+}
+footer .footer-mid .col {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-mid .col .logo-footer img {
+  width: 60%;
+}
+footer .footer-mid .col .logo-footer p {
+  font-size: 14px;
+  color: #ffff;
+  margin-top: 60px;
+  text-align: justify;
+}
+footer .footer-mid .footer-icons {
+  margin-top: 60px;
+}
+footer .footer-mid .footer-icons a {
+  margin: 10px;
+}
+footer .footer-mid .footer-icons a i {
+  font-size: 20px;
+  color: #f0f0f0;
+}
+footer .footer-mid .footer-icons a i:hover {
+  color: #427ed5;
+  transition: 0.1s;
+}
+footer .footer-mid .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #f0f0f0;
+}
+footer .footer-mid .product p {
+  color: #f0f0f0;
+}
+footer .footer-mid .product .picture {
+  display: flex;
+  max-width: 60px;
+}
+footer .footer-mid .product .picture img {
+  width: 100%;
+  margin-left: 15px;
+}
+footer .footer-mid .stars i {
+  margin: 10px 0;
+  color: #427ed5;
+}
+footer .footer-mid .price a {
+  color: #f0f0f0;
+}
+footer .footer-mid .list i {
+  color: #f0f0f0;
+}
+footer .footer-mid .list span {
+  color: #f0f0f0;
+  font-size: 12px;
+}
+footer .footer-mid .tags {
+  color: #a0a5a5;
+}
+footer .footer-mid .tags .block {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-mid .tags .block p {
+  font-size: 12px;
+  margin: 5px;
+  border: 1px solid #a0a5a5;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+footer .footer-bot {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1f22;
+  color: #ffff;
+  padding: 50px;
+}
+footer .footer-bot span {
+  font-size: 12px;
+  text-align: center;
+}
+footer .footer-bot .cards {
+  display: flex;
+  align-self: center;
+  margin-top: 50px;
+}
