@@ -307,3 +307,52 @@ h1 {
   background-color: #e280b1;
   transition: 0.5s;
 }
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+}
+.section-3 .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-3 .title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 25px;
+}
+.section-3 .title hr {
+  width: 25%;
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+}
+.section-3 .sect-3-top {
+  text-align: center;
+}
+.section-3 .sect-3-top p {
+  color: #6b6a6b;
+  margin: 10px;
+}
+.section-3 .carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.section-3 .carousel img {
+  max-width: 280px;
+  width: 100%;
+}
+.section-3 .carousel .left-btn, .section-3 .carousel .right-btn {
+  padding: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.section-3 .carousel .left-btn:hover, .section-3 .carousel .right-btn:hover {
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+.section-3 .carousel .left-btn a, .section-3 .carousel .right-btn a {
+  color: #ffff;
+}
